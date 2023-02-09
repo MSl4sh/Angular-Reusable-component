@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'reusable';
+
+  handleClickTitle(title:string){
+    console.log(`${title} a été cliqué`)
+  }
 }
